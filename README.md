@@ -48,10 +48,7 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 📈 Technician Performance Dashboard
 
 **Tools Used**
-
-- Power BI
 - Excel
-- Power Query
 
 ### Project Overview
 
@@ -119,28 +116,6 @@ Developed a dashboard to monitor student enrollment and retention performance fo
 
 ---
 
-## 🚚 Delivery Performance Analysis
-
-**Tools Used**
-
-- SQL Server
-- Power BI
-
-### Project Overview
-
-Analyzed logistics and delivery operations using SQL and Power BI to identify opportunities for improving delivery performance.
-
-### Analysis Includes
-
-- Delivery Time Analysis
-- On-Time Delivery Rate
-- Warehouse Performance
-- Regional Comparison
-- Delay Analysis
-- KPI Reporting
-
----
-
 ## 🗄️ SQL Practice Repository
 
 Practicing SQL through real-world exercises covering:
@@ -175,7 +150,6 @@ Practicing SQL through real-world exercises covering:
 - Statistics for Data Analysis
 - Python for Data Analysis
 - REST API
-- ETL Process
 - Data Engineering Fundamentals
 
 ---
