@@ -22,7 +22,7 @@ Currently, I am building my technical skills through hands-on projects using **S
 - Power Query
 - Excel
 - Google Sheets
-- Data Cleaning
+- ETL Concepts,Data Cleaning
 - Data Transformation
 - Dashboard Design
 - KPI Reporting
@@ -40,7 +40,6 @@ Currently, I am building my technical skills through hands-on projects using **S
 
 - Statistics for Data Analysis
 - REST API
-- ETL Concepts
 ---
 
 # 📊 Featured Projects
