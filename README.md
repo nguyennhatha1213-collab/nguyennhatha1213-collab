@@ -1,20 +1,20 @@
 # Hi, I'm Ha 👋
 
-## Aspiring Data Analyst | Customer Service & Operations Background
+## 📊 Aspiring Data Analyst | Customer Service & Operations Background
 
 Welcome to my GitHub!
 
-I have over **6 years of experience** in Customer Service and Operations, where I developed strong analytical thinking, problem-solving, stakeholder communication, and process improvement skills.
+I have over **6 years of experience** in Customer Service and Operations, where I developed strong skills in communication, problem-solving, process improvement, and stakeholder management.
 
-Today, I am transitioning into **Data Analytics** by building real-world projects using SQL, Power BI, Excel, and data visualization techniques.
+My passion for working with data inspired me to transition into **Data Analytics**. I enjoy transforming raw data into meaningful insights through dashboards, reports, and data-driven decision-making.
 
-My goal is to transform data into meaningful insights that help businesses make better decisions.
+Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel, Python**, and statistical analysis.
 
 ---
 
 # 🚀 Technical Skills
 
-### 📊 Data Analytics
+## 📈 Data Analytics
 
 - SQL Server
 - Power BI
@@ -22,26 +22,26 @@ My goal is to transform data into meaningful insights that help businesses make 
 - Power Query
 - Excel
 - Google Sheets
-- Data Visualization
-- Dashboard Design
-- KPI Reporting
 - Data Cleaning
 - Data Transformation
+- Dashboard Design
+- KPI Reporting
+- Data Visualization
 - Pivot Tables
 
-### 💻 Development Tools
+## 💻 Tools
 
 - Git
 - GitHub
-- VS Code
+- Visual Studio Code
 - Postman
 
-### 📖 Currently Learning
+## 📚 Currently Learning
 
 - Statistics for Data Analysis
 - Python (Pandas, NumPy, Matplotlib)
 - REST API
-- ETL Process
+- ETL Concepts
 - Data Engineering Fundamentals
 
 ---
@@ -50,7 +50,7 @@ My goal is to transform data into meaningful insights that help businesses make 
 
 ## 📈 Technician Performance Dashboard
 
-**Tools**
+**Tools Used**
 
 - Power BI
 - Excel
@@ -58,11 +58,11 @@ My goal is to transform data into meaningful insights that help businesses make 
 
 ### Project Overview
 
-Designed an interactive dashboard to monitor technician performance and operational KPIs.
+Designed an interactive dashboard to evaluate technician performance and operational efficiency.
 
-### Dashboard Highlights
+### Key KPIs
 
-- Revenue Performance
+- Revenue
 - Jobs Completed
 - Average Repair Time
 - Customer Rating
@@ -75,20 +75,20 @@ Designed an interactive dashboard to monitor technician performance and operatio
 
 ### Business Value
 
-- Evaluate technician productivity
-- Identify monthly performance trends
-- Monitor operational efficiency
-- Support management decision-making
+- Monitor technician productivity
+- Compare monthly performance
+- Detect operational issues quickly
+- Support data-driven management decisions
 
 <p align="center">
-<img src="images/technician-performance-dashboard.png" width="900">
+  <img src="Image/Technician%20Performance%20Dashboard.png" width="900">
 </p>
 
 ---
 
 ## 🎓 Student Retention Dashboard
 
-**Tools**
+**Tools Used**
 
 - Power BI
 - Excel
@@ -96,13 +96,13 @@ Designed an interactive dashboard to monitor technician performance and operatio
 
 ### Project Overview
 
-Built an interactive dashboard to analyze student enrollment and retention performance.
+Developed a dashboard to monitor student enrollment and retention performance for educational centers.
 
-### Dashboard Highlights
+### Key KPIs
 
 - Active Students
 - New Registrations
-- Retention Rate
+- Student Retention Rate
 - Student Churn
 - Monthly Trends
 - KPI Cards
@@ -111,42 +111,42 @@ Built an interactive dashboard to analyze student enrollment and retention perfo
 
 ### Business Value
 
-- Track student retention
-- Identify enrollment trends
-- Improve retention strategies
-- Support business planning
+- Monitor student retention
+- Analyze enrollment trends
+- Identify periods with high churn
+- Support strategic planning
 
 <p align="center">
-<img src="images/student-retention-dashboard.png" width="900">
+  <img src="Image/Student%20Retention%20Dashboard.png" width="900">
 </p>
 
 ---
 
 ## 🚚 Delivery Performance Analysis
 
-**Tools**
+**Tools Used**
 
 - SQL Server
 - Power BI
 
-### Overview
+### Project Overview
 
-A logistics analysis project focusing on delivery performance and operational efficiency.
+Analyzed logistics and delivery operations using SQL and Power BI to identify opportunities for improving delivery performance.
 
 ### Analysis Includes
 
-- Delivery Time
-- On-time Delivery Rate
-- Regional Performance
+- Delivery Time Analysis
+- On-Time Delivery Rate
 - Warehouse Performance
+- Regional Comparison
 - Delay Analysis
 - KPI Reporting
 
 ---
 
-## 🗄 SQL Practice Repository
+## 🗄️ SQL Practice Repository
 
-Topics covered:
+Practicing SQL through real-world exercises covering:
 
 - SELECT
 - WHERE
@@ -158,14 +158,14 @@ Topics covered:
 - CASE WHEN
 - Aggregate Functions
 - Window Functions
-- CTE
+- CTE (Common Table Expressions)
 - Subqueries
 
 ---
 
 # 📚 Learning Journey
 
-### ✅ Completed
+## ✅ Completed
 
 - Excel for Data Analysis
 - Google Sheets Analytics
@@ -173,36 +173,37 @@ Topics covered:
 - SQL Server Fundamentals
 - Git & GitHub
 
-### 🔄 In Progress
+## 🔄 In Progress
 
 - Statistics for Data Analysis
 - Python for Data Analysis
 - REST API
-- ETL Concepts
+- ETL Process
 - Data Engineering Fundamentals
 
 ---
 
 # 🎯 Career Goal
 
-I aspire to become a professional **Data Analyst** who combines business understanding with technical expertise to solve real-world business problems through data.
+My goal is to become a professional **Data Analyst** who combines business knowledge with technical expertise to transform data into actionable insights.
 
-I enjoy learning new technologies, building dashboards, analyzing data, and continuously improving my analytical skills.
+I am passionate about continuous learning, solving business problems, and creating dashboards that help organizations make better decisions.
 
 ---
 
-# 📂 Portfolio Repositories
+# 📂 Portfolio Repository
 
-📊 **Data Analyst Learning Repository**
+Explore more of my hands-on projects here:
 
-- SQL Practice
-- Power BI Projects
-- Excel Dashboards
+**📁 Data-Analyst-Learning**
+
+- SQL Projects
+- Power BI Dashboards
+- Excel Analytics
 - Statistics Exercises
 - Python Projects (Coming Soon)
 
-👉 Repository:
-https://github.com/nguyennhatha1213-collab/Data-Analyst-Learning
+👉 https://github.com/nguyennhatha1213-collab/Data-Analyst-Learning
 
 ---
 
@@ -216,4 +217,4 @@ https://github.com/nguyennhatha1213-collab
 
 ⭐ Thank you for visiting my GitHub profile!
 
-I'm continuously learning, building projects, and growing as a Data Analyst.
+I am continuously learning, building projects, and growing as a Data Analyst.
