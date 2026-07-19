@@ -2,78 +2,227 @@
 
 ## Data Analyst Learner | Operations & Customer Experience Background
 
-I have over 6 years of experience in Customer Service and Operations, where I developed strong skills in problem-solving, process improvement, and understanding business needs.
+I have over 6 years of experience in Customer Service and Operations, where I developed strong skills in problem-solving, process improvement, stakeholder communication, and understanding business needs.
 
-During my journey, I discovered my passion for working with data — transforming raw information into meaningful insights that support better decisions.
+Throughout my career, I discovered my passion for working with data—transforming raw information into meaningful insights that support smarter business decisions and improve operational efficiency.
 
-Currently, I am building my Data Analyst skills through hands-on projects with SQL, Power BI, Excel, and Data Visualization.
+I am currently building my Data Analyst portfolio through hands-on projects using SQL, Power BI, Excel, and data visualization techniques while continuously learning statistics, Python, and data engineering fundamentals.
 
 ---
 
-## 🛠️ Skills
+# 🛠️ Technical Skills
 
-### Data Analytics
+## Data Analytics
 - SQL Server
 - Power BI
 - DAX
 - Power Query
-- Excel / Google Sheets
+- Excel
+- Google Sheets
 - Data Visualization
 - Dashboard Design
+- Data Cleaning
+- Data Transformation
+- Pivot Tables
+- KPI Reporting
 
-### Currently Learning
+## Currently Learning
 - Statistics for Data Analysis
 - Python for Data Analysis
 - Data Engineering Fundamentals
-- API & Data Pipeline Concepts
+- REST API
+- ETL Process
+- Git & GitHub
 
 ---
 
-## 📊 Featured Projects
+# 📊 Featured Projects
 
-### Student Performance & Registration Dashboard
-**Tools:** Power BI | Excel
+## 1. Technician Performance Dashboard
 
-- Built KPI dashboards to track student registration performance
-- Analyzed trends and operational metrics
-- Created visual reports to support business decisions
+**Tools Used**
 
+- Power BI
+- Excel
+- Power Query
+- Pivot Table
 
-### Delivery Performance Analysis
-**Tools:** SQL Server | Power BI
+### Project Overview
 
-- Designed database structure for delivery analysis
-- Used SQL queries to explore operational performance
-- Analyzed delivery efficiency and business insights
+This dashboard provides an overview of technician performance by monitoring operational KPIs and monthly performance trends.
 
+### Key Features
 
-### SQL Practice Repository
-**Tools:** SQL Server
+- Revenue Analysis
+- Jobs Completed Analysis
+- Average Repair Time
+- Customer Rating
+- Complaint Rate
+- Month-over-Month Growth
+- Interactive Filters
+- KPI Cards
+- Conditional Formatting
+- Dynamic Charts
 
-- Practicing data extraction, transformation, and analysis
-- Working with SELECT, JOIN, GROUP BY, HAVING, Window Functions
+### Business Value
 
----
+- Monitor technician productivity
+- Compare monthly performance
+- Detect declining performance quickly
+- Support management decision-making
 
-## 📚 Learning Journey
+### Dashboard Preview
 
-2026
-
-✅ Excel & Google Sheets Analytics  
-✅ Power BI Dashboard Development  
-✅ SQL Server Fundamentals  
-✅ Git & GitHub Portfolio  
-🔄 Statistics for Data Analysis  
-🔄 Python for Data Analysis  
-
----
-
-## 🎯 Career Goal
-
-My goal is to become a Data Analyst who can combine business understanding with technical skills to solve real-world problems through data.
+<p align="center">
+<img src="images/technician-performance-dashboard.png" width="900">
+</p>
 
 ---
 
-## 📫 Connect With Me
+## 2. Student Retention Dashboard
 
-GitHub: https://github.com/nguyennhatha1213-collab
+**Tools Used**
+
+- Power BI
+- Excel
+- Power Query
+
+### Project Overview
+
+This dashboard analyzes student enrollment and retention performance to help education centers understand student behavior and improve retention strategies.
+
+### Key Features
+
+- Total Students
+- Active Students
+- Retention Rate
+- New Registrations
+- Student Churn
+- Monthly Enrollment Trend
+- KPI Cards
+- Interactive Slicers
+- Dynamic Visualizations
+
+### Business Value
+
+- Track student retention over time
+- Monitor enrollment performance
+- Identify periods with high churn
+- Support operational planning and decision-making
+
+### Dashboard Preview
+
+<p align="center">
+<img src="images/student-retention-dashboard.png" width="900">
+</p>
+
+---
+
+## 3. Delivery Performance Analysis
+
+**Tools Used**
+
+- SQL Server
+- Power BI
+
+### Project Overview
+
+A logistics performance analysis project using SQL queries and Power BI dashboards.
+
+### Key Features
+
+- Delivery Time Analysis
+- On-time Delivery Rate
+- Warehouse Performance
+- Regional Performance Comparison
+- Delay Analysis
+- KPI Reporting
+
+### Business Value
+
+- Improve logistics efficiency
+- Monitor delivery performance
+- Support operational improvements
+
+---
+
+## 4. SQL Practice Repository
+
+**Tools Used**
+
+- SQL Server
+
+### Topics Covered
+
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- JOIN
+- CASE WHEN
+- Aggregate Functions
+- Common Table Expressions (CTEs)
+- Window Functions
+- Subqueries
+
+---
+
+# 📚 Learning Journey
+
+## Completed
+
+✅ Excel & Google Sheets Analytics
+
+✅ Power BI Dashboard Development
+
+✅ SQL Server Fundamentals
+
+✅ Git & GitHub
+
+---
+
+## Currently Learning
+
+🔄 Statistics for Data Analysis
+
+🔄 Python for Data Analysis
+
+🔄 Data Engineering Fundamentals
+
+🔄 REST API Integration
+
+🔄 ETL Concepts
+
+---
+
+# 🎯 Career Goal
+
+My goal is to become a professional Data Analyst who combines business knowledge with technical expertise to transform data into actionable insights.
+
+I am passionate about continuous learning and enjoy solving real-world business problems through data analysis, dashboard development, and process improvement.
+
+---
+
+# 📈 Future Projects
+
+- Sales Performance Dashboard
+- HR Analytics Dashboard
+- Financial Dashboard
+- Customer Segmentation Analysis
+- Marketing Campaign Dashboard
+- Inventory Analysis
+- Python Data Analysis Projects
+- Machine Learning Fundamentals
+
+---
+
+# 📫 Connect With Me
+
+**GitHub**
+
+https://github.com/nguyennhatha1213-collab
+
+---
+
+⭐ Thank you for visiting my GitHub Portfolio!
