@@ -8,7 +8,7 @@ I have over **6 years of experience** in Customer Service and Operations, where 
 
 My passion for working with data inspired me to transition into **Data Analytics**. I enjoy transforming raw data into meaningful insights through dashboards, reports, and data-driven decision-making.
 
-Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel, Python**, and statistical analysis.
+Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel**, and statistical analysis.
 
 ---
 
@@ -39,11 +39,8 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 📚 Currently Learning
 
 - Statistics for Data Analysis
-- Python (Pandas, NumPy, Matplotlib)
 - REST API
 - ETL Concepts
-- Data Engineering Fundamentals
-
 ---
 
 # 📊 Featured Projects
