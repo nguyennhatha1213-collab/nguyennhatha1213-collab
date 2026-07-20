@@ -1,20 +1,29 @@
 # Hi, I'm Ha 👋
 
+
 ## 📊 Aspiring Data Analyst | Customer Service & Operations Background
+
 
 Welcome to my GitHub!
 
+
 I have over **6 years of experience** in Customer Service and Operations, where I developed strong skills in communication, problem-solving, process improvement, and stakeholder management.
+
 
 My passion for working with data inspired me to transition into **Data Analytics**. I enjoy transforming raw data into meaningful insights through dashboards, reports, and data-driven decision-making.
 
+
 Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel, Power Query**, and statistical analysis.
+
 
 ---
 
+
 # 🚀 Technical Skills
 
+
 ## 📈 Data Analytics
+
 
 - SQL Server
 - Power BI
@@ -31,42 +40,69 @@ Currently, I am building my technical skills through hands-on projects using **S
 - Pivot Tables
 - Statistical Analysis
 
+
 ## 💻 Tools
 
+
+- Microsoft Excel
+- Google Sheets
+- SQL Server
+- DBeaver
+- Power BI Desktop
 - Git
 - GitHub
 - Visual Studio Code
 - Postman
 
+
 ## 📚 Currently Learning
 
-- Statistics for Data Analysis
-- Python for Data Analysis
-- REST API
-- Data Engineering Fundamentals
 
+### Statistics for Data Analysis
+
+
+- Probability
+- Probability Distributions
+- Sampling & Sampling Distributions
+- Confidence Intervals
+- Hypothesis Testing
+- Correlation Analysis
+- Regression Analysis
 ---
+
 
 # 📊 Featured Projects
 
+
 ## 📈 Technician Performance Dashboard
+
 
 **Tools Used**
 
-- Excel
+
+- Spreadsheet
 - Pivot Tables
-- Power Query
+- FILTER
+- SORT
+- UNIQUE
 - Conditional Formatting
+- Charts
+
 
 ### Project Overview
 
+
 Designed an interactive dashboard to evaluate technician productivity, operational efficiency, and service quality across multiple regions and time periods.
+
 
 ### Business Problem
 
+
 Management needed a dashboard to monitor technician performance, identify operational bottlenecks, compare regional productivity, and support data-driven decision-making.
 
+
 ### Key KPIs
+
 
 - Revenue
 - Jobs Completed
@@ -79,7 +115,9 @@ Management needed a dashboard to monitor technician performance, identify operat
 - Interactive Filters
 - Dynamic Charts
 
+
 ### Business Value
+
 
 - Monitor technician productivity
 - Compare regional performance
@@ -87,30 +125,41 @@ Management needed a dashboard to monitor technician performance, identify operat
 - Detect operational issues quickly
 - Support data-driven management decisions
 
+
 <p align="center">
   <img src="Image/Technician%20Performance%20dashboard%20(2).png" width="900">
 </p>
 
+
 ---
+
 
 ## 🎓 Student Retention Dashboard
 
+
 **Tools Used**
+
 
 - Power BI
 - Excel
 - Power Query
 - DAX
 
+
 ### Project Overview
+
 
 Developed an interactive dashboard to monitor student enrollment, retention performance, and business KPIs across educational centers.
 
+
 ### Business Problem
+
 
 The objective was to analyze enrollment trends, identify churn patterns, and improve student retention through data visualization.
 
+
 ### Key KPIs
+
 
 - Active Students
 - New Registrations
@@ -121,41 +170,53 @@ The objective was to analyze enrollment trends, identify churn patterns, and imp
 - Interactive Slicers
 - Dynamic Charts
 
+
 ### Business Value
+
 
 - Monitor student retention
 - Analyze enrollment trends
 - Identify periods with high churn
 - Support strategic planning
 
+
 <p align="center">
   <img src="Image/Student%20Retention%20Dashboard.png" width="900">
 </p>
 
+
 ---
+
 
 ## 🗄️ SQL Practice Repository
 
-Practicing SQL through real-world business scenarios covering:
 
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
-- HAVING
-- INNER JOIN
-- LEFT JOIN
-- CASE WHEN
+### Topics Covered
+
+
+- SQL Query Fundamentals
+- Filtering & Logic
 - Aggregate Functions
-- Window Functions
-- Common Table Expressions (CTEs)
-- Subqueries
+- GROUP BY & HAVING
+- INNER JOIN & LEFT JOIN
+- Date Functions
 
+
+### Currently Learning
+
+
+- CASE WHEN
+- Window Functions
+- CTEs
+- Subqueries
 ---
+
 
 # 📚 Learning Journey
 
+
 ## ✅ Completed
+
 
 - Excel for Data Analysis
 - Google Sheets Analytics
@@ -163,28 +224,71 @@ Practicing SQL through real-world business scenarios covering:
 - SQL Server Fundamentals
 - Git & GitHub
 
+
+### Statistics for Data Analysis
+
+
+- Descriptive Statistics
+- Measures of Central Tendency (Mean, Median, Mode)
+- Measures of Dispersion (Range, Variance, Standard Deviation)
+- Coefficient of Variation (CV)
+- Quartiles & Percentiles
+- Interquartile Range (IQR)
+- Z-score & Outlier Detection
+
+
 ## 🔄 In Progress
 
-- Statistics for Data Analysis
-- Python for Data Analysis
-- REST API
-- Data Engineering Fundamentals
+
+### Statistics for Data Analysis
+
+
+- Probability
+- Probability Distributions
+- Sampling & Sampling Distributions
+- Confidence Intervals
+- Hypothesis Testing
+- Correlation Analysis
+- Regression Analysis
+
+
+### Python for Data Analysis
+
+
+- NumPy
+- Pandas
+- Matplotlib
+
+
+### REST API
+
+
+### Data Engineering Fundamentals
+
 
 ---
+
 
 # 🎯 Career Goal
 
+
 My goal is to become a professional **Data Analyst** who combines business knowledge with technical expertise to transform data into actionable insights.
+
 
 I am passionate about continuous learning, solving business problems, and building dashboards that support better business decisions.
 
+
 ---
+
 
 # 📂 Portfolio Repository
 
+
 Explore more of my hands-on projects:
 
+
 ## 📁 Data-Analyst-Learning
+
 
 - SQL Projects
 - Power BI Dashboards
@@ -192,18 +296,5 @@ Explore more of my hands-on projects:
 - Statistics Exercises
 - Python Projects *(Coming Soon)*
 
+
 👉 https://github.com/nguyennhatha1213-collab/Data-Analyst-Learning
-
----
-
-# 📫 Connect With Me
-
-**GitHub**
-
-https://github.com/nguyennhatha1213-collab
-
----
-
-⭐ Thank you for visiting my GitHub profile!
-
-I'm continuously learning, building real-world projects, and growing as a Data Analyst.
