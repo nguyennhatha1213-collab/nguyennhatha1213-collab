@@ -8,7 +8,7 @@ I have over **6 years of experience** in Customer Service and Operations, where 
 
 My passion for working with data inspired me to transition into **Data Analytics**. I enjoy transforming raw data into meaningful insights through dashboards, reports, and data-driven decision-making.
 
-Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel**, and statistical analysis.
+Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel, Power Query**, and statistical analysis.
 
 ---
 
@@ -22,12 +22,14 @@ Currently, I am building my technical skills through hands-on projects using **S
 - Power Query
 - Excel
 - Google Sheets
-- ETL Concepts,Data Cleaning
+- ETL Concepts
+- Data Cleaning
 - Data Transformation
 - Dashboard Design
 - KPI Reporting
 - Data Visualization
 - Pivot Tables
+- Statistical Analysis
 
 ## 💻 Tools
 
@@ -39,7 +41,10 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 📚 Currently Learning
 
 - Statistics for Data Analysis
+- Python for Data Analysis
 - REST API
+- Data Engineering Fundamentals
+
 ---
 
 # 📊 Featured Projects
@@ -47,34 +52,43 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 📈 Technician Performance Dashboard
 
 **Tools Used**
+
 - Excel
+- Pivot Tables
+- Power Query
+- Conditional Formatting
 
 ### Project Overview
 
-Designed an interactive dashboard to evaluate technician performance and operational efficiency.
+Designed an interactive dashboard to evaluate technician productivity, operational efficiency, and service quality across multiple regions and time periods.
+
+### Business Problem
+
+Management needed a dashboard to monitor technician performance, identify operational bottlenecks, compare regional productivity, and support data-driven decision-making.
 
 ### Key KPIs
 
 - Revenue
 - Jobs Completed
+- Revenue per Job
 - Average Repair Time
 - Customer Rating
 - Complaint Rate
 - Month-over-Month Growth
 - KPI Cards
 - Interactive Filters
-- Conditional Formatting
 - Dynamic Charts
 
 ### Business Value
 
 - Monitor technician productivity
-- Compare monthly performance
+- Compare regional performance
+- Track monthly trends
 - Detect operational issues quickly
 - Support data-driven management decisions
 
 <p align="center">
-  <img src="Image/Technician%20Performance%20Dashboard.png" width="900">
+  <img src="Image/Technician%20Performance%20Dashboard%20(2).png" width="900">
 </p>
 
 ---
@@ -86,10 +100,15 @@ Designed an interactive dashboard to evaluate technician performance and operati
 - Power BI
 - Excel
 - Power Query
+- DAX
 
 ### Project Overview
 
-Developed a dashboard to monitor student enrollment and retention performance for educational centers.
+Developed an interactive dashboard to monitor student enrollment, retention performance, and business KPIs across educational centers.
+
+### Business Problem
+
+The objective was to analyze enrollment trends, identify churn patterns, and improve student retention through data visualization.
 
 ### Key KPIs
 
@@ -117,7 +136,7 @@ Developed a dashboard to monitor student enrollment and retention performance fo
 
 ## 🗄️ SQL Practice Repository
 
-Practicing SQL through real-world exercises covering:
+Practicing SQL through real-world business scenarios covering:
 
 - SELECT
 - WHERE
@@ -129,7 +148,7 @@ Practicing SQL through real-world exercises covering:
 - CASE WHEN
 - Aggregate Functions
 - Window Functions
-- CTE (Common Table Expressions)
+- Common Table Expressions (CTEs)
 - Subqueries
 
 ---
@@ -157,21 +176,21 @@ Practicing SQL through real-world exercises covering:
 
 My goal is to become a professional **Data Analyst** who combines business knowledge with technical expertise to transform data into actionable insights.
 
-I am passionate about continuous learning, solving business problems, and creating dashboards that help organizations make better decisions.
+I am passionate about continuous learning, solving business problems, and building dashboards that support better business decisions.
 
 ---
 
 # 📂 Portfolio Repository
 
-Explore more of my hands-on projects here:
+Explore more of my hands-on projects:
 
-**📁 Data-Analyst-Learning**
+## 📁 Data-Analyst-Learning
 
 - SQL Projects
 - Power BI Dashboards
 - Excel Analytics
 - Statistics Exercises
-- Python Projects (Coming Soon)
+- Python Projects *(Coming Soon)*
 
 👉 https://github.com/nguyennhatha1213-collab/Data-Analyst-Learning
 
@@ -187,4 +206,4 @@ https://github.com/nguyennhatha1213-collab
 
 ⭐ Thank you for visiting my GitHub profile!
 
-I am continuously learning, building projects, and growing as a Data Analyst.
+I'm continuously learning, building real-world projects, and growing as a Data Analyst.
