@@ -44,16 +44,12 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 💻 Tools
 
 
-- Microsoft Excel
-- Google Sheets
-- SQL Server
-- DBeaver
+- Microsoft Excel/ Google Sheets
+- SQL Server, DBeaver
 - Power BI Desktop
-- Git
-- GitHub
+- Git, GitHub
 - Visual Studio Code
 - Postman
-
 
 ## 📚 Currently Learning
 
