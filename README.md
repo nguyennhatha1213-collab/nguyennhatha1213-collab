@@ -88,7 +88,7 @@ Management needed a dashboard to monitor technician performance, identify operat
 - Support data-driven management decisions
 
 <p align="center">
-  <img src="Image/Technician%20Performance%20Dashboard%20(2).png" width="900">
+  <img src="Image/Technician%20Performance%20dashboard%20(2).png" width="900">
 </p>
 
 ---
