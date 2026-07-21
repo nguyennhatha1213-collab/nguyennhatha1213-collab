@@ -74,8 +74,6 @@ Currently, I am building my technical skills through hands-on projects using **S
 - Charts
 
 
-# 📊 Technician Performance Dashboard
-
 ## 📌 Project Overview
 
 Built an interactive dashboard to evaluate technician performance through productivity, revenue, service quality, and operational efficiency metrics.
