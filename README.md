@@ -24,7 +24,7 @@ Currently, I am building my technical skills through hands-on projects using **S
 
 ## 📈 Data Analytics
 
-- **ETL Concepts**
+- **ETL Concepts**: ETL Concepts: Understand the Extract, Transform, and Load (ETL) process to collect, clean, transform, and prepare data from multiple sources for analysis and reporting.
 - **SQL Server**: Extract, manipulate, and analyze data from relational databases for reporting and business analysis.
 - Power BI: Power Query,Data Cleaning,Data Transformation,KPI Reporting,DAX,Data Visualization,Dashboard Design.
 - **Excel/Google Sheets**: Excel / Google Sheets: Clean, transform, analyze,Pivot Tables, visualize, and automate data to create accurate reports and interactive dashboards for decision-making.
