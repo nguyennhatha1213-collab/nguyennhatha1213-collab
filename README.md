@@ -24,32 +24,21 @@ Currently, I am building my technical skills through hands-on projects using **S
 
 ## 📈 Data Analytics
 
-
-- SQL Server
-- Power BI
-- DAX
-- Power Query
-- Excel
-- Google Sheets
-- ETL Concepts
-- Data Cleaning
-- Data Transformation
-- Dashboard Design
-- KPI Reporting
-- Data Visualization
-- Pivot Tables
-- Statistical Analysis
+- **ETL Concepts**
+- **SQL Server**: Extract, manipulate, and analyze data from relational databases for reporting and business analysis.
+- Power BI: Power Query,Data Cleaning,Data Transformation,KPI Reporting,DAX,Data Visualization,Dashboard Design.
+- **Excel/Google Sheets**: Excel / Google Sheets: Clean, transform, analyze,Pivot Tables, visualize, and automate data to create accurate reports and interactive dashboards for decision-making.
+- **Statistics & Analytics**: Understand what the typical value is, how data varies, how it is distributed, identify anomalies, and analyze relationships between variables.
 
 
 ## 💻 Tools
 
 
 - Microsoft Excel/ Google Sheets
-- SQL Server, DBeaver
+- SQL Server
 - Power BI Desktop
-- Git, GitHub
+- GitHub
 - Visual Studio Code
-- Postman
 
 ## 📚 Currently Learning
 
