@@ -182,8 +182,6 @@ Revenue per Job also helps evaluate:
 
 ## 📷 Dashboard Preview
 
-![Technician Dashboard](images/technician-dashboard.png)
-
 <p align="center">
   <img src="Image/Technician%20Performance%20dashboard%20(2).png" width="900">
 </p>
