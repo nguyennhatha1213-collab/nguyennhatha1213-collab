@@ -74,100 +74,122 @@ Currently, I am building my technical skills through hands-on projects using **S
 - Charts
 
 
-### Project Overview
+# 📊 Technician Performance Dashboard
 
+## 📌 Project Overview
 
-Designed an interactive dashboard to evaluate technician productivity, operational efficiency, and service quality across multiple regions and time periods.
+Built an interactive dashboard to evaluate technician performance through productivity, revenue, service quality, and operational efficiency metrics.
 
+The dashboard supports management in:
 
-### Business Problem
+- Monitoring operational KPIs
+- Comparing regional performance
+- Identifying operational bottlenecks
+- Supporting data-driven decision-making
 
+**Reporting Period:** Jan 2026 – Jun 2026
 
-Management needed a dashboard to monitor technician performance, identify operational bottlenecks, compare regional productivity, and support data-driven decision-making.
+**Regions:** Central • North • South
 
+---
 
-### Key KPIs
+## 🛠 Tools Used
 
+- Google Sheets
+- Pivot Tables
+- Dashboard Design
+- KPI Reporting
+- Data Visualization
 
-- Revenue
-- Jobs Completed
-- Revenue per Job
-- Average Repair Time
-- Customer Rating
-- Complaint Rate
-- Month-over-Month Growth
-- KPI Cards
-- Interactive Filters
-- Dynamic Charts
+---
 
+## 📈 KPIs Tracked
 
-### Business Value
+| KPI | Value | Meaning |
+|------|------:|---------|
+| Total Jobs | 54,263 | Total completed jobs |
+| Total Revenue | 81,514 | Total revenue generated |
+| Customer Rating | 4.58 | Average customer satisfaction |
+| Average Repair Time | 44.86 min | Average repair duration |
+| Complaint Rate | 1.32% | Percentage of customer complaints |
+| Revenue per Job | 1.50 | Average revenue generated per job |
 
+---
 
-- Monitor technician productivity
-- Compare regional performance
-- Track monthly trends
-- Detect operational issues quickly
-- Support data-driven management decisions
+## 💼 Business Value
 
+This dashboard supports data-driven decision-making through four key business perspectives.
+
+### 1️⃣ Operational Performance Monitoring
+
+- Consolidates **54,263 completed jobs** and **81,514 revenue units** over six months.
+- Provides a centralized view of operational KPIs.
+- Eliminates manual reporting and improves monitoring efficiency.
+
+---
+
+### 2️⃣ Regional Performance Analysis
+
+The **Central** region handled the highest workload (**19,513 jobs**) but did not achieve the highest customer satisfaction.
+
+This may indicate:
+
+- Technician workload imbalance
+- Potential service quality risks
+- Need to monitor **Jobs per Technician** rather than total jobs alone
+
+---
+
+### 3️⃣ Balancing Productivity and Service Quality
+
+Although monthly workload fluctuated,
+
+- Complaint Rate remained around **1.3%**
+- Customer Rating stayed between **4.55–4.63**
+
+This suggests that service quality remained stable despite operational changes and provides a benchmark for other regions.
+
+---
+
+### 4️⃣ Early Risk Detection
+
+Monitoring **Complaint Rate** together with **Customer Rating** enables early detection of operational issues.
+
+Revenue per Job also helps evaluate:
+
+- Pricing effectiveness
+- Upselling opportunities
+- Revenue efficiency
+
+---
+
+## 📌 Key Insights
+
+- Central generated the highest workload but may face technician overload.
+- South maintained the fastest repair time while sustaining high customer satisfaction.
+- Complaint Rate remained below the common 2% operational threshold.
+- Customer Rating stayed consistently high throughout the reporting period.
+- Revenue per Job remained stable across all regions.
+
+---
+
+## 💡 Recommendations
+
+- Monitor **Jobs per Technician** to balance workload.
+- Continue tracking **Complaint Rate** and **Customer Rating** together as early warning indicators.
+- Investigate opportunities to improve **Revenue per Job** through pricing optimization or value-added services.
+- Apply best-performing regional practices across all service locations.
+
+---
+
+## 📷 Dashboard Preview
+
+![Technician Dashboard](images/technician-dashboard.png)
 
 <p align="center">
   <img src="Image/Technician%20Performance%20dashboard%20(2).png" width="900">
 </p>
 
-
----
-
-
-## 🎓 Student Retention Dashboard
-
-
-**Tools Used**
-
-
-- Power BI
-- Excel
-- Power Query
-- DAX
-
-
-### Project Overview
-
-
-Developed an interactive dashboard to monitor student enrollment, retention performance, and business KPIs across educational centers.
-
-
-### Business Problem
-
-
-The objective was to analyze enrollment trends, identify churn patterns, and improve student retention through data visualization.
-
-
-### Key KPIs
-
-
-- Active Students
-- New Registrations
-- Student Retention Rate
-- Student Churn
-- Monthly Trends
-- KPI Cards
-- Interactive Slicers
-- Dynamic Charts
-
-
-### Business Value
-
-
-- Monitor student retention
-- Analyze enrollment trends
-- Identify periods with high churn
-- Support strategic planning
-
-
-<p align="center">
-  <img src="Image/Student%20Retention%20Dashboard.png" width="900">
-</p>
 
 
 ---
