@@ -65,17 +65,6 @@ Currently, I am building my technical skills through hands-on projects using **S
 **Repository:**  
 [Technician Performance & Business Development](https://github.com/nguyennhatha1213-collab/nguyennhatha1213-collab/tree/main/Projects/Technician%20Performance%20%26%20Bussiness%20Development/Presentation.md)
 
-**Tools Used**
-
-
-- Spreadsheet
-- Pivot Tables
-- FILTER
-- SORT
-- UNIQUE
-- Conditional Formatting
-- Charts
-
 
 ## 📌 Project Overview
 
