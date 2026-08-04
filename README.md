@@ -36,19 +36,8 @@ Currently, I am building my technical skills through hands-on projects using **S
 
 # 🏆 Certifications
 
-## 📊 Data Analyst Certificate
-
-<p align="center">
-  <img src="./Image/Image%203.png" width="800">
-</p>
-
----
-
-## 🗄️ SQLBolt Certificate
-
-<p align="center">
-  <img src="./Image/Image%204.png" width="800">
-</p>
+- **Dua Data – Data Analyst Certificate** — August 3, 2026
+- **SQLBolt Certificate** — August 5, 2026
 
 ---
 
