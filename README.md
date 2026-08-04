@@ -39,7 +39,7 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 📊 Data Analyst Certificate
 
 <p align="center">
-  <img src="./Image/Dua%20Data%20Certificate.jpg" width="800">
+  <img src="./Image/Image%203.png" width="800">
 </p>
 
 ---
@@ -47,7 +47,7 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 🗄️ SQLBolt Certificate
 
 <p align="center">
-  <img src="./Image/SQLbolt.jpg" width="800">
+  <img src="./Image/Image%204.png" width="800">
 </p>
 
 ---
@@ -181,27 +181,51 @@ Revenue per Job also helps evaluate:
 
 ## 📚 Topics Covered
 
-- SQL Query Fundamentals
+### SQL Fundamentals
+
 - SELECT Statements
-- Filtering & Logic
-- DISTINCT
+- WHERE
 - ORDER BY
-- Aggregate Functions
-- GROUP BY & HAVING
-- INNER JOIN & LEFT JOIN
-- Date Functions
+- DISTINCT
 - INSERT
 - UPDATE
 - ALTER TABLE
+
+### Aggregation & Grouping
+
+- COUNT
+- SUM
+- AVG
+- MIN
+- MAX
+- GROUP BY
+- HAVING
+
+### Data Retrieval
+
+- INNER JOIN
+- LEFT JOIN
+- Date Functions
 - CASE WHEN
 
 ---
 
 ## 🔄 Currently Learning
 
+### Intermediate SQL
+
 - Subqueries
-- CTEs
+- Common Table Expressions (CTEs)
+
+### Advanced SQL
+
 - Window Functions
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- LAG()
+- LEAD()
+- CTE + Window Functions
 - Advanced SQL Business Cases
 
 ---
