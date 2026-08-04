@@ -39,7 +39,7 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 📊 Data Analyst Certificate
 
 <p align="center">
-  <img src="Image/Dua%20Data%20Certificate.jpg" width="800">
+  <img src="./Image/Dua%20Data%20Certificate.jpg" width="800">
 </p>
 
 ---
@@ -47,7 +47,7 @@ Currently, I am building my technical skills through hands-on projects using **S
 ## 🗄️ SQLBolt Certificate
 
 <p align="center">
-  <img src="Image/SQLbolt.jpg" width="800">
+  <img src="./Image/SQLbolt.jpg" width="800">
 </p>
 
 ---
@@ -113,6 +113,8 @@ This dashboard supports data-driven decision-making through four key business pe
 - Provides a centralized view of operational KPIs.
 - Reduces manual reporting and improves monitoring efficiency.
 
+---
+
 ### 2️⃣ Regional Performance Analysis
 
 The **Central** region handled the highest workload (**19,513 jobs**) but did not achieve the highest customer satisfaction.
@@ -123,6 +125,8 @@ This may indicate:
 - Potential service quality risks
 - The need to monitor **Jobs per Technician** rather than total jobs alone
 
+---
+
 ### 3️⃣ Balancing Productivity and Service Quality
 
 Although monthly workload fluctuated:
@@ -131,6 +135,8 @@ Although monthly workload fluctuated:
 - Customer Rating stayed between **4.55–4.63**
 
 This suggests that service quality remained relatively stable despite operational changes and provides a benchmark for other regions.
+
+---
 
 ### 4️⃣ Early Risk Detection
 
@@ -166,7 +172,7 @@ Revenue per Job also helps evaluate:
 ## 📷 Dashboard Preview
 
 <p align="center">
-  <img src="Image/Technician%20Performance%20dashboard%20(2).png" width="900">
+  <img src="./Image/Technician%20Performance%20dashboard%20(2).png" width="900">
 </p>
 
 ---
@@ -176,7 +182,10 @@ Revenue per Job also helps evaluate:
 ## 📚 Topics Covered
 
 - SQL Query Fundamentals
+- SELECT Statements
 - Filtering & Logic
+- DISTINCT
+- ORDER BY
 - Aggregate Functions
 - GROUP BY & HAVING
 - INNER JOIN & LEFT JOIN
@@ -184,9 +193,9 @@ Revenue per Job also helps evaluate:
 - INSERT
 - UPDATE
 - ALTER TABLE
-- DISTINCT
-- ORDER BY
 - CASE WHEN
+
+---
 
 ## 🔄 Currently Learning
 
@@ -209,7 +218,9 @@ Revenue per Job also helps evaluate:
 - SQL Server Fundamentals
 - Git & GitHub
 
-### Statistics for Data Analysis
+---
+
+### 📊 Statistics for Data Analysis
 
 - Descriptive Statistics
 - Measures of Central Tendency
@@ -240,17 +251,23 @@ Revenue per Job also helps evaluate:
 - Correlation Analysis
 - Regression Analysis
 
+---
+
 ### 🐍 Python for Data Analysis
 
 - NumPy
 - Pandas
 - Matplotlib
 
+---
+
 ### 🌐 REST API
 
 - API Fundamentals
 - Data Retrieval
 - JSON Data
+
+---
 
 ### ⚙️ Data Engineering Fundamentals
 
