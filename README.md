@@ -1,70 +1,67 @@
 # Hi, I'm Ha 👋
 
-
 ## 📊 Aspiring Data Analyst | Customer Service & Operations Background
-
 
 Welcome to my GitHub!
 
-
-I have over **6 years of experience** in Customer Service and Operations, where I developed strong skills in communication, problem-solving, process improvement, and stakeholder management.
-
+I have over **6 years of experience in Customer Service and Operations**, where I developed strong skills in communication, problem-solving, process improvement, and stakeholder management.
 
 My passion for working with data inspired me to transition into **Data Analytics**. I enjoy transforming raw data into meaningful insights through dashboards, reports, and data-driven decision-making.
 
-
-Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel, Power Query**, and **statistical analysis.**
-
+Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel, Power Query, and statistical analysis.**
 
 ---
 
-
 # 🚀 Technical Skills
-
 
 ## 📈 Data Analytics
 
-- **ETL Concepts**: ETL Concepts: Understand the Extract, Transform, and Load (ETL) process to collect, clean, transform, and prepare data from multiple sources for analysis and reporting.
-- **SQL**: Extract, manipulate, and analyze data from relational databases for reporting and business analysis.
-- **Power BI**: Power Query,Data Cleaning,Data Transformation,KPI Reporting,DAX,Data Visualization,Dashboard Design.
-- **Excel/Google Sheets**: Clean, transform, analyze,Pivot Tables, visualize, and automate data to create accurate reports and interactive dashboards for decision-making.
-- **Statistics & Analytics**: Understand what the typical value is, how data varies, how it is distributed, identify anomalies, and analyze relationships between variables.
+- **ETL Concepts:** Understand the Extract, Transform, and Load (ETL) process to collect, clean, transform, and prepare data from multiple sources for analysis and reporting.
+- **SQL:** Extract, manipulate, and analyze data from relational databases for reporting and business analysis.
+- **Power BI:** Power Query, data cleaning, data transformation, KPI reporting, DAX, data visualization, and dashboard design.
+- **Excel / Google Sheets:** Data cleaning, transformation, analysis, Pivot Tables, visualization, and reporting.
+- **Statistics & Analytics:** Descriptive statistics, data variability, distributions, anomaly detection, and relationships between variables.
 
+---
 
-## 💻 Tools
+# 💻 Tools
 
-
-- Microsoft Excel/ Google Sheets
+- Microsoft Excel / Google Sheets
 - SQL Server
 - Power BI Desktop
 - GitHub
 - Visual Studio Code
 
-## 📚 Currently Learning
-
-
-### Statistics for Data Analysis
-
-
-- Probability
-- Probability Distributions
-- Sampling & Sampling Distributions
-- Confidence Intervals
-- Hypothesis Testing
-- Correlation Analysis
-- Regression Analysis
 ---
 
+# 🏆 Certifications
+
+## 📊 Data Analyst Certificate
+
+<p align="center">
+  <img src="Image/Dua%20Data%20Certificate.jpg" width="800">
+</p>
+
+---
+
+## 🗄️ SQLBolt Certificate
+
+<p align="center">
+  <img src="Image/SQLbolt.jpg" width="800">
+</p>
+
+---
 
 # 📊 Featured Projects
 
-
 ## 📈 Technician Performance Dashboard
-## 🔗 Project Link
+
+### 🔗 Project Link
 
 **Repository:**  
 [Technician Performance & Business Development](https://github.com/nguyennhatha1213-collab/nguyennhatha1213-collab/tree/main/Projects/Technician%20Performance%20%26%20Bussiness%20Development/Presentation.md)
 
+---
 
 ## 📌 Project Overview
 
@@ -96,7 +93,7 @@ The dashboard supports management in:
 ## 📈 KPIs Tracked
 
 | KPI | Value | Meaning |
-|------|------:|---------|
+|---|---:|---|
 | Total Jobs | 54,263 | Total completed jobs |
 | Total Revenue | 81,514 | Total revenue generated |
 | Customer Rating | 4.58 | Average customer satisfaction |
@@ -114,9 +111,7 @@ This dashboard supports data-driven decision-making through four key business pe
 
 - Consolidates **54,263 completed jobs** and **81,514 revenue units** over six months.
 - Provides a centralized view of operational KPIs.
-- Eliminates manual reporting and improves monitoring efficiency.
-
----
+- Reduces manual reporting and improves monitoring efficiency.
 
 ### 2️⃣ Regional Performance Analysis
 
@@ -126,24 +121,20 @@ This may indicate:
 
 - Technician workload imbalance
 - Potential service quality risks
-- Need to monitor **Jobs per Technician** rather than total jobs alone
-
----
+- The need to monitor **Jobs per Technician** rather than total jobs alone
 
 ### 3️⃣ Balancing Productivity and Service Quality
 
-Although monthly workload fluctuated,
+Although monthly workload fluctuated:
 
 - Complaint Rate remained around **1.3%**
 - Customer Rating stayed between **4.55–4.63**
 
-This suggests that service quality remained stable despite operational changes and provides a benchmark for other regions.
-
----
+This suggests that service quality remained relatively stable despite operational changes and provides a benchmark for other regions.
 
 ### 4️⃣ Early Risk Detection
 
-Monitoring **Complaint Rate** together with **Customer Rating** enables early detection of operational issues.
+Monitoring **Complaint Rate** together with **Customer Rating** enables early detection of potential operational issues.
 
 Revenue per Job also helps evaluate:
 
@@ -155,11 +146,11 @@ Revenue per Job also helps evaluate:
 
 ## 📌 Key Insights
 
-- Central generated the highest workload but may face technician overload.
+- Central generated the highest workload but may face technician workload pressure.
 - South maintained the fastest repair time while sustaining high customer satisfaction.
-- Complaint Rate remained below the common 2% operational threshold.
+- Complaint Rate remained below the 2% operational benchmark used in this analysis.
 - Customer Rating stayed consistently high throughout the reporting period.
-- Revenue per Job remained stable across all regions.
+- Revenue per Job remained relatively stable across regions.
 
 ---
 
@@ -178,16 +169,11 @@ Revenue per Job also helps evaluate:
   <img src="Image/Technician%20Performance%20dashboard%20(2).png" width="900">
 </p>
 
-
-
 ---
 
+# 🗄️ SQL Practice Repository
 
-## 🗄️ SQL Practice Repository
-
-
-### Topics Covered
-
+## 📚 Topics Covered
 
 - SQL Query Fundamentals
 - Filtering & Logic
@@ -195,23 +181,27 @@ Revenue per Job also helps evaluate:
 - GROUP BY & HAVING
 - INNER JOIN & LEFT JOIN
 - Date Functions
-
-
-### Currently Learning
-
-
+- INSERT
+- UPDATE
+- ALTER TABLE
+- DISTINCT
+- ORDER BY
 - CASE WHEN
-- Window Functions
-- CTEs
-- Subqueries
----
 
+## 🔄 Currently Learning
+
+- Subqueries
+- CTEs
+- Window Functions
+- Advanced SQL Business Cases
+
+---
 
 # 📚 Learning Journey
 
-
 ## ✅ Completed
 
+### Excel & Data Analytics
 
 - Excel for Data Analysis
 - Google Sheets Analytics
@@ -219,24 +209,28 @@ Revenue per Job also helps evaluate:
 - SQL Server Fundamentals
 - Git & GitHub
 
-
 ### Statistics for Data Analysis
 
-
 - Descriptive Statistics
-- Measures of Central Tendency (Mean, Median, Mode)
-- Measures of Dispersion (Range, Variance, Standard Deviation)
-- Coefficient of Variation (CV)
+- Measures of Central Tendency
+  - Mean
+  - Median
+  - Mode
+- Measures of Dispersion
+  - Range
+  - Variance
+  - Standard Deviation
+  - Coefficient of Variation (CV)
 - Quartiles & Percentiles
 - Interquartile Range (IQR)
-- Z-score & Outlier Detection
+- Z-score
+- Outlier Detection
 
+---
 
 ## 🔄 In Progress
 
-
-### Statistics for Data Analysis
-
+### 📊 Statistics for Data Analysis
 
 - Probability
 - Probability Distributions
@@ -246,44 +240,41 @@ Revenue per Job also helps evaluate:
 - Correlation Analysis
 - Regression Analysis
 
-
-### Python for Data Analysis
-
+### 🐍 Python for Data Analysis
 
 - NumPy
 - Pandas
 - Matplotlib
 
+### 🌐 REST API
 
-### REST API
+- API Fundamentals
+- Data Retrieval
+- JSON Data
 
+### ⚙️ Data Engineering Fundamentals
 
-### Data Engineering Fundamentals
-
+- ETL / ELT
+- Data Pipelines
+- Data Warehousing
+- Airflow
+- Docker
 
 ---
-
 
 # 🎯 Career Goal
 
-
 My goal is to become a professional **Data Analyst** who combines business knowledge with technical expertise to transform data into actionable insights.
-
 
 I am passionate about continuous learning, solving business problems, and building dashboards that support better business decisions.
 
-
 ---
-
 
 # 📂 Portfolio Repository
 
-
 Explore more of my hands-on projects:
 
-
 ## 📁 Data-Analyst-Learning
-
 
 - SQL Projects
 - Power BI Dashboards
@@ -291,5 +282,4 @@ Explore more of my hands-on projects:
 - Statistics Exercises
 - Python Projects *(Coming Soon)*
 
-
-👉 https://github.com/nguyennhatha1213-collab/Data-Analyst-Learning
+👉 [Explore my Data Analyst Learning Repository](https://github.com/nguyennhatha1213-collab/Data-Analyst-Learning)
