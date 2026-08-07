@@ -72,7 +72,7 @@ The dashboard supports management in:
 
 ---
 
-### 🔄 Data Pipeline & System Architecture (DMX Environment)
+### 🔄 Data Pipeline & System Architecture
 
 | What | Mechanism | Frequency | Logic |
 | :--- | :--- | :--- | :--- |
