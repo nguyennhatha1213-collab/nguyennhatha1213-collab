@@ -8,7 +8,7 @@ I have over **6 years of experience in Customer Service and Operations**, where 
 
 My passion for working with data inspired me to transition into **Data Analytics**. I enjoy transforming raw data into meaningful insights through dashboards, reports, and data-driven decision-making.
 
-Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel, Power Query, and statistical analysis.**
+Currently, I am building my technical skills through hands-on projects using **SQL, Power BI, Excel, Power Query, Python, Supabase, and statistical analysis.**
 
 ---
 
@@ -21,6 +21,7 @@ Currently, I am building my technical skills through hands-on projects using **S
 - **Power BI:** Power Query, data cleaning, data transformation, KPI reporting, DAX, data visualization, and dashboard design.
 - **Excel / Google Sheets:** Data cleaning, transformation, analysis, Pivot Tables, visualization, and reporting.
 - **Statistics & Analytics:** Descriptive statistics, data variability, distributions, anomaly detection, and relationships between variables.
+- **Automation & Pipelines:** Building automated data ingestion pipelines using Python & cloud databases (Supabase).
 
 ---
 
@@ -29,6 +30,8 @@ Currently, I am building my technical skills through hands-on projects using **S
 - Microsoft Excel / Google Sheets
 - SQL Server
 - Power BI Desktop
+- Python
+- Supabase
 - GitHub
 - Visual Studio Code
 
@@ -271,6 +274,8 @@ Revenue per Job also helps evaluate:
 - NumPy
 - Pandas
 - Matplotlib
+- Automation & Repetitive Task Automation (Python Scripts)
+- Cloud Database Integration (Supabase)
 
 ---
 
@@ -284,7 +289,9 @@ Revenue per Job also helps evaluate:
 
 ### ⚙️ Data Engineering Fundamentals
 
+- Engineering & Maintenance Domain Data Pipeline Architecture
 - ETL / ELT
+- Automated Data Ingestion
 - Data Pipelines
 - Data Warehousing
 - Airflow
@@ -306,6 +313,7 @@ Explore more of my hands-on projects:
 
 ## 📁 Data-Analyst-Learning
 
+- Automated Maintenance Data Pipeline (Python & Supabase)
 - SQL Projects
 - Power BI Dashboards
 - Excel Analytics
