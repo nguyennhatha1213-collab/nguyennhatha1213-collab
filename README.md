@@ -76,8 +76,8 @@ The dashboard supports management in:
 
 | What | Mechanism | Frequency | Logic |
 | :--- | :--- | :--- | :--- |
-| **Operational & Job Data** | Extract from DMX Enterprise ERP system (Work Orders, Repair Times, Technical Specs) | Daily Automated Batch Extract | Extract completed jobs (`Status = Completed`) and log durations for repair efficiency. |
-| **Customer Feedback & CSAT** | Ingest from DMX CRM System (Ratings, Complaints, Feedback Tickets) | Real-time / Scheduled API Sync | Join CRM tickets with ERP Work Order IDs to match customer ratings directly with specific technicians. |
+| **Operational & Job Data** | Extract from Enterprise ERP system (Work Orders, Repair Times, Technical Specs) | Daily Automated Batch Extract | Extract completed jobs (`Status = Completed`) and log durations for repair efficiency. |
+| **Customer Feedback & CSAT** | Ingest from CRM System (Ratings, Complaints, Feedback Tickets) | Real-time / Scheduled API Sync | Join CRM tickets with ERP Work Order IDs to match customer ratings directly with specific technicians. |
 | **Regional Performance & Targets** | Ingest manual operational Excel files (KPI Benchmarks, Technician Roster, Regional Targets) | Weekly / Monthly Manual Upload | Clean & standardize region codes, merge target KPIs with actual ERP/CRM performance metrics. |
 | **Automated ETL Pipeline** | Python scripts & Supabase Cloud Storage | Scheduled Cron Job | Extract raw data from ERP, CRM, and Excel, perform automated data cleaning/transformations, and load into Supabase. |
 | **Dashboard Transformation & Modeling** | Power Query & DAX Data Model | On-Demand / Scheduled Refresh | Calculate aggregated KPIs (MTTR, Complaint Rate, Revenue/Job) and generate interactive visuals. |
