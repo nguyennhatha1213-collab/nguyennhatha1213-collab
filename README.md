@@ -185,53 +185,29 @@ Revenue per Job also helps evaluate:
 
 ## 📚 Topics Covered
 
-### SQL Fundamentals
+### SQL Fundamentals & Aggregation
+- SELECT, WHERE, ORDER BY, DISTINCT, INSERT, UPDATE, ALTER TABLE
+- Aggregation Functions: COUNT, SUM, AVG, MIN, MAX
+- Grouping & Filtering: GROUP BY, HAVING
 
-- SELECT Statements
-- WHERE
-- ORDER BY
-- DISTINCT
-- INSERT
-- UPDATE
-- ALTER TABLE
+### Joins & Logic Processing
+- Multi-table Joins: INNER JOIN, LEFT JOIN, RIGHT JOIN
+- Conditional Logic: CASE WHEN
+- Date & Time Functions: DATEDIFF, DATEADD, GETDATE()
 
-### Aggregation & Grouping
-
-- COUNT
-- SUM
-- AVG
-- MIN
-- MAX
-- GROUP BY
-- HAVING
-
-### Data Retrieval
-
-- INNER JOIN
-- LEFT JOIN
-- Date Functions
-- CASE WHEN
+### Intermediate & Advanced SQL
+- **Common Table Expressions (CTEs):** Single CTE, Multiple CTEs, CTEs for complex business logic
+- **Window & Ranking Functions:** ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), LEAD()
+- **Advanced Pattern:** Combining CTEs with Window Functions for time-series analysis (e.g., MTTR, MTBF calculations)
 
 ---
 
-## 🔄 Currently Learning
+## 🔄 Currently Learning & Practicing
 
-### Intermediate SQL
-
-- Subqueries
-- Common Table Expressions (CTEs)
-
-### Advanced SQL
-
-- Window Functions
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- LAG()
-- LEAD()
-- CTE + Window Functions
-- Advanced SQL Business Cases
-
+### Advanced SQL Applications
+- Complex Query Optimization & Indexing
+- Stored Procedures & User-Defined Functions (UDFs)
+- Real-world Business Case Studies (Cohort Analysis, Maintenance Analytics, Churn Rate)
 ---
 
 # 📚 Learning Journey
