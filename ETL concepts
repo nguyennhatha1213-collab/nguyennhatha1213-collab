@@ -139,8 +139,6 @@ ORDER BY ChildTable;
 
 ## 🧠 Summary
 
-After checking the database structure, I can understand:
-
 | Area | What I learned |
 |---|---|
 | 📋 Tables | What entities are available in the database |
