@@ -1,5 +1,14 @@
-When I receive a new dataset, I first try to understand what the data contains and how it is structured. Then I check the tables, columns, keys and relationships between them
---Check tables,total columns in each table, data type in each column and column name in each table
+# 🔎 Database Understanding & Schema Analysis
+
+When I receive a new dataset, I first try to understand what the data contains and how it is structured. Then, I check the tables, columns, keys, and relationships between them.
+
+---
+
+## 📋 1. Check Tables & Columns
+
+I check the tables, the total number of columns in each table, the data type of each column, and the column names in each table.
+
+```sql
 SELECT
     TABLE_SCHEMA,
     TABLE_NAME,
@@ -10,12 +19,19 @@ SELECT
     NUMERIC_PRECISION,
     NUMERIC_SCALE,
     IS_NULLABLE,
-    COUNT(*) OVER(PARTITION BY TABLE_SCHEMA, TABLE_NAME) AS TotalColumns
+    COUNT(*) OVER(
+        PARTITION BY TABLE_SCHEMA, TABLE_NAME
+    ) AS TotalColumns
 FROM INFORMATION_SCHEMA.COLUMNS
-ORDER BY TABLE_SCHEMA, TABLE_NAME, ORDINAL_POSITION;
+ORDER BY
+    TABLE_SCHEMA,
+    TABLE_NAME,
+    ORDINAL_POSITION;
+```
 
-Result is:
-## Database Schema
+**Result is:**
+
+### Database Schema
 
 | Schema | Table | # | Column | Data Type | Max Length | Precision | Scale | Nullable | Total Columns |
 |---|---|---:|---|---|---:|---:|---:|---|---:|
@@ -43,9 +59,20 @@ Result is:
 | dbo | WorkOrder_Parts | 2 | WorkOrderID | int | — | 10 | 0 | YES | 4 |
 | dbo | WorkOrder_Parts | 3 | PartID | int | — | 10 | 0 | YES | 4 |
 | dbo | WorkOrder_Parts | 4 | Quantity | int | — | 10 | 0 | YES | 4 |
-| dbo | WorkOrders
+| dbo | WorkOrders | 1 | WorkOrderID | int | — | 10 | 0 | NO | 8 |
+| dbo | WorkOrders | 2 | EquipmentID | int | — | 10 | 0 | YES | 8 |
+| dbo | WorkOrders | 3 | TechnicianID | int | — | 10 | 0 | YES | 8 |
+| dbo | WorkOrders | 4 | WorkOrderType | varchar | 20 | — | — | YES | 8 |
+| dbo | WorkOrders | 5 | StartTime | datetime | — | — | — | NO | 8 |
+| dbo | WorkOrders | 6 | EndTime | datetime | — | — | — | YES | 8 |
+| dbo | WorkOrders | 7 | LaborHours | decimal | — | 5 | 2 | YES | 8 |
+| dbo | WorkOrders | 8 | CustomerCharge | decimal | — | 18 | 2 | YES | 8 |
 
---Check Existing Primary Keys
+---
+
+## 🔑 2. Check Existing Primary Keys
+
+```sql
 SELECT
     tc.TABLE_SCHEMA,
     tc.TABLE_NAME,
@@ -57,10 +84,14 @@ JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE AS kcu
     AND tc.TABLE_SCHEMA = kcu.TABLE_SCHEMA
     AND tc.TABLE_NAME = kcu.TABLE_NAME
 WHERE tc.CONSTRAINT_TYPE = 'PRIMARY KEY'
-ORDER BY tc.TABLE_NAME, kcu.ORDINAL_POSITION;
+ORDER BY
+    tc.TABLE_NAME,
+    kcu.ORDINAL_POSITION;
+```
 
-Result is:
-## Primary Keys
+**Result is:**
+
+### Primary Keys
 
 | TABLE_SCHEMA | TABLE_NAME | COLUMN_NAME | CONSTRAINT_NAME |
 |---|---|---|---|
@@ -71,15 +102,29 @@ Result is:
 | dbo | WorkOrder_Parts | ID | PK__WorkOrder__3214EC272E3D12AA |
 | dbo | WorkOrders | WorkOrderID | PK__WorkOrde__EA75517508F37FF8 |
 
---Check Existing Foreign Keys
+---
+
+## 🔗 3. Check Existing Foreign Keys
+
+```sql
 SELECT
-    OBJECT_NAME(fk.parent_object_id) AS ChildTable,    COL_NAME(fkc.parent_object_id, fkc.parent_column_id) AS ChildColumn,
-    OBJECT_NAME(fk.referenced_object_id) AS ParentTable,    COL_NAME(fkc.referenced_object_id, fkc.referenced_column_id) AS ParentColumn
-FROM sys.foreign_keys AS fkJOIN sys.foreign_key_columns AS fkc
-    ON fk.object_id = fkc.constraint_object_idORDER BY ChildTable;
+    OBJECT_NAME(fk.parent_object_id) AS ChildTable,
+    COL_NAME(
+        fkc.parent_object_id,
+        fkc.parent_column_id
+    ) AS ChildColumn,
+    OBJECT_NAME(fk.referenced_object_id) AS ParentTable,
+    COL_NAME(
+        fkc.referenced_object_id,
+        fkc.referenced_column_id
+    ) AS ParentColumn
+FROM sys.foreign_keys AS fk
+JOIN sys.foreign_key_columns AS fkc
+    ON fk.object_id = fkc.constraint_object_id
+ORDER BY ChildTable;
+```
 
-Result is:
-
+**Result is:**
 
 | ChildTable | ChildColumn | ParentTable | ParentColumn |
 |---|---|---|---|
@@ -89,3 +134,21 @@ Result is:
 | WorkOrder_Parts | PartID | SpareParts | PartID |
 | WorkOrders | TechnicianID | Technicians | TechnicianID |
 | WorkOrders | EquipmentID | Equipments | EquipmentID |
+
+---
+
+## 🧠 Summary
+
+After checking the database structure, I can understand:
+
+| Area | What I learned |
+|---|---|
+| 📋 Tables | What entities are available in the database |
+| 🏷️ Columns | What information is stored in each table |
+| 🔢 Data Types | How each field is stored |
+| 🔑 Primary Keys | How each record is uniquely identified |
+| 🔗 Foreign Keys | How tables are connected |
+| 🧩 Relationships | How tables can be joined for analysis |
+| ⚠️ Nullable Fields | Which columns may contain missing values |
+
+This initial data understanding helps me build a clear picture of the database before moving on to **data profiling, data cleaning, transformation, and analysis**.
