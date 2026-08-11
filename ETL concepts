@@ -1,0 +1,60 @@
+# 🔎 Database Understanding & Schema Analysis
+
+> 📌 **Objective:** Understand what the data contains, how it is structured, and how different tables are connected before starting the data analysis process.
+
+---
+
+## 🧭 1. Understand the Dataset
+
+When I receive a new dataset, I first try to understand **what the data contains and how it is structured**.
+
+Then, I check:
+
+- 📂 Tables and their structures
+- 🏷️ Columns and column names
+- 🔢 Data types
+- 🔑 Primary Keys
+- 🔗 Foreign Keys
+- 🧩 Relationships between tables
+- 📊 Number of columns in each table
+- ⚠️ Nullable fields
+
+This helps me understand the database structure before moving to data cleaning, transformation, and analysis.
+
+---
+
+# 🗂️ 2. Check Tables & Columns
+
+### 🎯 Objective
+
+Identify:
+
+- 📋 All tables in the database
+- 🔢 Total number of columns in each table
+- 🏷️ Column names
+- 🔠 Data types
+- 📏 Character length
+- 🔢 Numeric precision and scale
+- ⚠️ Whether a column allows `NULL`
+
+### 💻 SQL Query
+
+```sql
+SELECT
+    TABLE_SCHEMA,
+    TABLE_NAME,
+    ORDINAL_POSITION,
+    COLUMN_NAME,
+    DATA_TYPE,
+    CHARACTER_MAXIMUM_LENGTH,
+    NUMERIC_PRECISION,
+    NUMERIC_SCALE,
+    IS_NULLABLE,
+    COUNT(*) OVER(
+        PARTITION BY TABLE_SCHEMA, TABLE_NAME
+    ) AS TotalColumns
+FROM INFORMATION_SCHEMA.COLUMNS
+ORDER BY
+    TABLE_SCHEMA,
+    TABLE_NAME,
+    ORDINAL_POSITION;
