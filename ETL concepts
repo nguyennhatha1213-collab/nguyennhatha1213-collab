@@ -1,6 +1,6 @@
 # 🔎 Database Understanding & Schema Analysis
 
-> 📌 **Objective:** Understand what the data contains, how it is structured, and how different tables are connected before starting the data analysis process.
+> 📌 **Objective:** Understand what the data contains, how it is structured, and how different tables are connected before starting data cleaning and analysis.
 
 ---
 
@@ -19,23 +19,23 @@ Then, I check:
 - 📊 Number of columns in each table
 - ⚠️ Nullable fields
 
-This helps me understand the database structure before moving to data cleaning, transformation, and analysis.
+This helps me understand the database structure before moving to data profiling, data cleaning, transformation, and analysis.
 
 ---
 
-# 🗂️ 2. Check Tables & Columns
+## 🗂️ 2. Check Tables & Columns
 
 ### 🎯 Objective
 
-Identify:
+First, I inspect the database schema to understand:
 
-- 📋 All tables in the database
-- 🔢 Total number of columns in each table
+- 📋 What tables are available
+- 🔢 How many columns each table contains
 - 🏷️ Column names
 - 🔠 Data types
 - 📏 Character length
 - 🔢 Numeric precision and scale
-- ⚠️ Whether a column allows `NULL`
+- ⚠️ Whether columns allow `NULL`
 
 ### 💻 SQL Query
 
