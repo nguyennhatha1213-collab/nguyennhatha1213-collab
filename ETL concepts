@@ -1,45 +1,5 @@
-# 🔎 Database Understanding & Schema Analysis
-
-> 📌 **Objective:** Understand what the data contains, how it is structured, and how different tables are connected before starting data cleaning and analysis.
-
----
-
-## 🧭 1. Understand the Dataset
-
-When I receive a new dataset, I first try to understand **what the data contains and how it is structured**.
-
-Then, I check:
-
-- 📂 Tables and their structures
-- 🏷️ Columns and column names
-- 🔢 Data types
-- 🔑 Primary Keys
-- 🔗 Foreign Keys
-- 🧩 Relationships between tables
-- 📊 Number of columns in each table
-- ⚠️ Nullable fields
-
-This helps me understand the database structure before moving to data profiling, data cleaning, transformation, and analysis.
-
----
-
-## 🗂️ 2. Check Tables & Columns
-
-### 🎯 Objective
-
-First, I inspect the database schema to understand:
-
-- 📋 What tables are available
-- 🔢 How many columns each table contains
-- 🏷️ Column names
-- 🔠 Data types
-- 📏 Character length
-- 🔢 Numeric precision and scale
-- ⚠️ Whether columns allow `NULL`
-
-### 💻 SQL Query
-
-```sql
+When I receive a new dataset, I first try to understand what the data contains and how it is structured. Then I check the tables, columns, keys and relationships between them
+--Check tables,total columns in each table, data type in each column and column name in each table
 SELECT
     TABLE_SCHEMA,
     TABLE_NAME,
@@ -50,11 +10,82 @@ SELECT
     NUMERIC_PRECISION,
     NUMERIC_SCALE,
     IS_NULLABLE,
-    COUNT(*) OVER(
-        PARTITION BY TABLE_SCHEMA, TABLE_NAME
-    ) AS TotalColumns
+    COUNT(*) OVER(PARTITION BY TABLE_SCHEMA, TABLE_NAME) AS TotalColumns
 FROM INFORMATION_SCHEMA.COLUMNS
-ORDER BY
-    TABLE_SCHEMA,
-    TABLE_NAME,
-    ORDINAL_POSITION;
+ORDER BY TABLE_SCHEMA, TABLE_NAME, ORDINAL_POSITION;
+
+Result is:
+## Database Schema
+
+| Schema | Table | # | Column | Data Type | Max Length | Precision | Scale | Nullable | Total Columns |
+|---|---|---:|---|---|---:|---:|---:|---|---:|
+| dbo | Equipments | 1 | EquipmentID | int | — | 10 | 0 | NO | 5 |
+| dbo | Equipments | 2 | EquipmentCode | varchar | 20 | — | — | NO | 5 |
+| dbo | Equipments | 3 | EquipmentName | nvarchar | 100 | — | — | NO | 5 |
+| dbo | Equipments | 4 | Category | nvarchar | 50 | — | — | YES | 5 |
+| dbo | Equipments | 5 | Location | nvarchar | 50 | — | — | YES | 5 |
+| dbo | FailureLogs | 1 | FailureLogID | int | — | 10 | 0 | NO | 7 |
+| dbo | FailureLogs | 2 | EquipmentID | int | — | 10 | 0 | YES | 7 |
+| dbo | FailureLogs | 3 | WorkOrderID | int | — | 10 | 0 | YES | 7 |
+| dbo | FailureLogs | 4 | FailureTime | datetime | — | — | — | NO | 7 |
+| dbo | FailureLogs | 5 | ResolutionTime | datetime | — | — | — | YES | 7 |
+| dbo | FailureLogs | 6 | DowntimeMinutes | int | — | 10 | 0 | YES | 7 |
+| dbo | FailureLogs | 7 | FailureReason | nvarchar | 100 | — | — | YES | 7 |
+| dbo | SpareParts | 1 | PartID | int | — | 10 | 0 | NO | 4 |
+| dbo | SpareParts | 2 | PartCode | varchar | 20 | — | — | YES | 4 |
+| dbo | SpareParts | 3 | PartName | nvarchar | 100 | — | — | YES | 4 |
+| dbo | SpareParts | 4 | UnitPrice | decimal | — | 18 | 2 | YES | 4 |
+| dbo | Technicians | 1 | TechnicianID | int | — | 10 | 0 | NO | 4 |
+| dbo | Technicians | 2 | FullName | nvarchar | 100 | — | — | NO | 4 |
+| dbo | Technicians | 3 | SkillLevel | nvarchar | 20 | — | — | YES | 4 |
+| dbo | Technicians | 4 | HourlyRate | decimal | — | 10 | 2 | YES | 4 |
+| dbo | WorkOrder_Parts | 1 | ID | int | — | 10 | 0 | NO | 4 |
+| dbo | WorkOrder_Parts | 2 | WorkOrderID | int | — | 10 | 0 | YES | 4 |
+| dbo | WorkOrder_Parts | 3 | PartID | int | — | 10 | 0 | YES | 4 |
+| dbo | WorkOrder_Parts | 4 | Quantity | int | — | 10 | 0 | YES | 4 |
+| dbo | WorkOrders
+
+--Check Existing Primary Keys
+SELECT
+    tc.TABLE_SCHEMA,
+    tc.TABLE_NAME,
+    kcu.COLUMN_NAME,
+    tc.CONSTRAINT_NAME
+FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS AS tc
+JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE AS kcu
+    ON tc.CONSTRAINT_NAME = kcu.CONSTRAINT_NAME
+    AND tc.TABLE_SCHEMA = kcu.TABLE_SCHEMA
+    AND tc.TABLE_NAME = kcu.TABLE_NAME
+WHERE tc.CONSTRAINT_TYPE = 'PRIMARY KEY'
+ORDER BY tc.TABLE_NAME, kcu.ORDINAL_POSITION;
+
+Result is:
+## Primary Keys
+
+| TABLE_SCHEMA | TABLE_NAME | COLUMN_NAME | CONSTRAINT_NAME |
+|---|---|---|---|
+| dbo | Equipments | EquipmentID | PK__Equipmen__344745998B581FD2 |
+| dbo | FailureLogs | FailureLogID | PK__FailureL__E6F7A219640A8731 |
+| dbo | SpareParts | PartID | PK__SparePar__7C3F0D309924E555 |
+| dbo | Technicians | TechnicianID | PK__Technici__301F82C17FDE360F |
+| dbo | WorkOrder_Parts | ID | PK__WorkOrder__3214EC272E3D12AA |
+| dbo | WorkOrders | WorkOrderID | PK__WorkOrde__EA75517508F37FF8 |
+
+--Check Existing Foreign Keys
+SELECT
+    OBJECT_NAME(fk.parent_object_id) AS ChildTable,    COL_NAME(fkc.parent_object_id, fkc.parent_column_id) AS ChildColumn,
+    OBJECT_NAME(fk.referenced_object_id) AS ParentTable,    COL_NAME(fkc.referenced_object_id, fkc.referenced_column_id) AS ParentColumn
+FROM sys.foreign_keys AS fkJOIN sys.foreign_key_columns AS fkc
+    ON fk.object_id = fkc.constraint_object_idORDER BY ChildTable;
+
+Result is:
+
+
+| ChildTable | ChildColumn | ParentTable | ParentColumn |
+|---|---|---|---|
+| FailureLogs | EquipmentID | Equipments | EquipmentID |
+| FailureLogs | WorkOrderID | WorkOrders | WorkOrderID |
+| WorkOrder_Parts | WorkOrderID | WorkOrders | WorkOrderID |
+| WorkOrder_Parts | PartID | SpareParts | PartID |
+| WorkOrders | TechnicianID | Technicians | TechnicianID |
+| WorkOrders | EquipmentID | Equipments | EquipmentID |
